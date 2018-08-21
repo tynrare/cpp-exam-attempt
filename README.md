@@ -5,6 +5,8 @@ cd build
 cmake .. && make
 ```
 
+Tested on `Linux 4.17.17-1-MANJARO x86_64, cmake version 3.11.4`
+
 ### Usage ###
 
 Available commands:
