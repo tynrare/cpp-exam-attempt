@@ -4,4 +4,23 @@ mkdir build
 cd build
 cmake .. && make
 ```
-You may need to use`sudo make install` command as it will install to /usr/local/bin .  This might be a good opportunity to investigate stow (http://www.gnu.org/software/stow/manual/stow.html) as a means of managing the installation of applications in this manner, however I haven't gotten far enough into my CMake knowledge to take that step.
+
+### Usage ###
+
+Available commands:
+
+```
+  1-gen - generate 1gb file
+	1-parse - first test implementation
+	2-case - shared_mutex implementation
+	3-case - wildcards implementation
+	4-case - cache implementation
+```
+
+Example execute:
+
+```
+cd build
+./CppTest 1-gen unsortedfile
+./CppTest 1-parse unsortedfile sortedfile
+```

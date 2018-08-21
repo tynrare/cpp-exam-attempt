@@ -17,7 +17,7 @@ void PrintHelpMessage(){
 		<< ProgramTypes::_1_parse << " - first test implementation\n\t"
 		<< ProgramTypes::_2_case << " - shared_mutex implementation\n\t"
 		<< ProgramTypes::_3_case << " - wildcards implementation\n\t"
-		<< ProgramTypes::_4_case << "4 - cache implementation\n\t"
+		<< ProgramTypes::_4_case << " - cache implementation\n\t"
 		<< endl;
 }
 
